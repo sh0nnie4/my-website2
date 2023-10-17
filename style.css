@@ -102,3 +102,9 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+@media (max-width: 576px) {
+  .projects {
+    margin: auto;
+    width: 100%;
+  }
+}
