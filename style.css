@@ -58,6 +58,9 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+.navbar a {
+  font-family: "Lato", sans-serif;
+}
 
 .contact-link {
   background: var(--primary-color);
