@@ -94,6 +94,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  font-family: "Lato", sans-serif;
 }
 
 .email-link:hover {
