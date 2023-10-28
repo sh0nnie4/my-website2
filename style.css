@@ -6,7 +6,7 @@
 
 body {
   margin: 60px auto;
-  max-width: 800px;
+  max-width: 999px;
 }
 
 h1,
@@ -119,4 +119,7 @@ p {
     margin: auto;
     width: 100%;
   }
+}
+.projects-header {
+  font-size: 75px;
 }
