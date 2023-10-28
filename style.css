@@ -45,7 +45,9 @@ p {
   text-align: center;
   font-family: "Lato", sans-serif;
 }
-
+span {
+  margin: 5px 15px;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -122,4 +124,9 @@ p {
 }
 .projects-header {
   font-size: 75px;
+}
+footer {
+  text-align: center;
+  font-size: 40px;
+  opacity: 0.7;
 }
