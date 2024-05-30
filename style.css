@@ -156,3 +156,9 @@ footer {
   font-size: 40px;
   opacity: 0.7;
 }
+.pro-pic {
+  display: flex;
+  justify-content: center;
+  margin-top: -160px;
+  margin-bottom: -50px;
+}
