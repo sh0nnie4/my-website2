@@ -183,3 +183,10 @@ footer {
   max-width: 200px;
   margin-top: -470px;
 }
+
+  .container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -50px 0 -50px 0;
+}
