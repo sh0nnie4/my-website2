@@ -144,6 +144,13 @@ small a:unvisited {
   h2 {
     font-size: 35px;
   }
+  img[src="images/design.png"] {
+display: none;
+  }
+  img[src="images/coder.png"] {
+    display: none;
+  }
+  
 }
 small {
   font-size: 15px;
