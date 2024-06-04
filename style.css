@@ -7,7 +7,7 @@
 body {
   margin: 60px auto;
   max-width: 999px;
-  
+  background-color: #8EC0E5;
  
 }
 
@@ -16,10 +16,12 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
+  color: var(--secondary-color);
+  text-shadow: 2px 2px 5px black;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 70px;
   font-family: "Playfair Display", serif;
   font-weight: 600;
 }
@@ -122,6 +124,8 @@ small a:unvisited {
 }
 .projects {
   margin: auto 60px;
+  background-image: url("images/bg4.png");
+background-size: cover;
 }
 
 .projects .button {
@@ -139,19 +143,21 @@ small a:unvisited {
     width: 100%;
   }
   h1 {
-    font-size: 65px;
+    font-size: 45px;
   }
   h2 {
-    font-size: 35px;
-  }
-  img[src="images/design.png"] {
-display: none;
-  }
-  img[src="images/coder.png"] {
-    display: none;
-  }
-  
+    font-size: 30px;
+  } 
 }
+@media (max-width: 768px) {
+  
+        img[src="images/mypropic8.png"] {
+max-width: 300px;
+max-height: 300px;
+padding: 20px;
+        }
+}
+
 small {
   font-size: 15px;
   opacity: 0.7;
@@ -175,25 +181,15 @@ footer {
 .greeting {
   margin-top: -30px;
 }
-.design {
+
+
+
+.container-1 {
   display: flex;
-  justify-content: left;
-  margin-left: -100px;
-  max-width: 200px;
-  margin-top: 40px;
-  
-}
-.coder {
-  display: flex;
-  justify-content: right;
-  margin-left: 1100px;
-  max-width: 200px;
-  margin-top: -470px;
+  justify-content: center;
+  align-items: center;
+  margin: -60px 0 -70px 0;
+  background-image: url("images/bg4.png");
+
 }
 
-  .container-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: -60px 0 -70px 0;
-}
