@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #808E91;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -64,10 +64,10 @@ h2 a:unvisited {
   color: black;
 }
 small a:visited {
-  color: #6c63ff;
+  color: #f5f2fe;
 }
 small a:unvisited {
-  color: #6c63ff;
+  color: #f5f2fe;
 }
 .navigation-links {
   display: flex;
@@ -125,9 +125,10 @@ small a:unvisited {
   text-decoration: underline;
 }
 .projects {
-  margin: auto 60px;
+  margin: auto;
   background-image: url("images/bg4.png");
 background-size: cover;
+padding: 30px;
 }
 
 .projects .button {
@@ -198,4 +199,7 @@ footer {
 
 .name {
   margin-top: -50px;
+}
+.featured {
+  margin-bottom: 10px;
 }
