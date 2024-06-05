@@ -151,6 +151,9 @@ padding: 30px;
   h2 {
     font-size: 30px;
   } 
+  h3 {
+    font-size: 20px;
+  }
 }
 @media (max-width: 768px) {
   
@@ -159,6 +162,10 @@ max-width: 300px;
 max-height: 300px;
 padding: 20px;
 margin-bottom: 25px;
+        }
+        h1 {
+          font-size: 50px;
+          margin-bottom: 0;
         }
 }
 
@@ -207,6 +214,6 @@ footer {
   line-height: 1.5em;
   background-color: rgba(128, 142, 145, 0.5);
   border-radius: 4px 4px 4px;
-  text-shadow: 2px 2px 6px black;
+  text-shadow: 2px 2px 4px black;
   padding: 15px;
 }
