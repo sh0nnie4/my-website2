@@ -159,6 +159,14 @@ padding: 30px;
   h3 {
     font-size: 20px;
   }
+  p {
+    font-size: 14px;
+  }
+  .projects .button {
+    padding: 5px;
+    max-width: 100px;
+  }
+    
 }
 @media (max-width: 768px) {
   
