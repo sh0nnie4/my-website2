@@ -143,6 +143,8 @@ padding: 30px;
   padding: 13px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  text-align: center;
+  white-space: nowrap;
   
 }
 @media (max-width: 576px) {
