@@ -164,19 +164,42 @@ padding: 30px;
   p {
     font-size: 14px;
     text-align: center;
-    margin-left: -195px;
+    margin-left: -165px;
     min-width: 300px;
   }
   .projects .button {
     padding: 5px auto;
     max-width: 100px;
-    margin-left: -200px;
+    margin-left: -165px;
   }
   #dictionary {
-    margin-left: -200px;
+    margin-left: -165px;
   }
   #travel {
-    margin-left: -200px;
+    margin-right: -110px;
+  
+  }
+  #travel-p {
+    font-size: 14px;
+    text-align: center;
+  margin-left: 8px;
+    min-width: 300px;
+  }
+  .button-travel {
+    padding: 5px auto;
+    
+    max-width: 200px;
+    margin-left: 8px;
+    display: inline-block;
+    white-space: nowrap;
+   
+    
+  }
+  img[src="images/dictionaryapp3.png"] {
+    display: none;
+  }
+  img[src="images/cannonbeachsite.png"] {
+    display: none;
   }
     
 }
@@ -250,4 +273,13 @@ footer {
 #travel {
   margin-top: -10px;
   font-size: 35px;
+}
+.button-travel {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 4px;
+  padding: 13px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
