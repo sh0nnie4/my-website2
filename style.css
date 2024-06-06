@@ -175,6 +175,9 @@ padding: 30px;
   #dictionary {
     margin-left: -200px;
   }
+  #travel {
+    margin-left: -200px;
+  }
     
 }
 @media (max-width: 768px) {
@@ -243,4 +246,8 @@ footer {
   margin-top: -10px;
   font-size: 35px;
   
+}
+#travel {
+  margin-top: -10px;
+  font-size: 35px;
 }
