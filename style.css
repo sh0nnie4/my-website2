@@ -164,12 +164,13 @@ padding: 30px;
   p {
     font-size: 14px;
     text-align: center;
-    margin-left: -200px;
+    margin-left: -195px;
     min-width: 300px;
   }
   .projects .button {
-    padding: 5px;
+    padding: 5px auto;
     max-width: 100px;
+    margin-left: -200px;
   }
   #dictionary {
     margin-left: -200px;
