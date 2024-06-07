@@ -59,10 +59,10 @@ a:link {
   text-decoration: none;
 }
 h2 a:visited {
-  color: black;
+  color: #f5f2fe;
 }
 h2 a:unvisited {
-  color: black;
+  color: #f5f2fe;
 }
 small a:visited {
   color: #f5f2fe;
