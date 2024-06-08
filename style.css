@@ -144,6 +144,16 @@ small a:unvisited {
   text-transform: capitalize;
 }
 
+.button-travel {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 4px;
+  padding: 13px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
 @media (max-width: 768px) {
   img[src="images/mypropic8.png"] {
     max-width: 300px;
@@ -165,23 +175,31 @@ small a:unvisited {
 
   .projects .row {
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
+    flex-direction: column;
+    align-items: center;
   }
 
   .projects img {
     height: auto;
-    max-height: none;
     width: 100%;
     object-fit: cover;
-    flex: 1;
+  }
+
+  .projects .col-6 {
+    width: 100%;
   }
 
   .projects p {
     font-size: 16px;
     margin: 0;
-    display: flex;
-    align-items: center;
+    padding: 0 10px;
+  }
+
+  .projects .button,
+  .projects .button-travel {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
   }
 }
 
@@ -212,55 +230,31 @@ small a:unvisited {
 
   .projects .row {
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
+    flex-direction: column;
+    align-items: center;
   }
 
   .projects img {
     height: auto;
-    max-height: none;
     width: 100%;
     object-fit: cover;
-    flex: 1;
+  }
+
+  .projects .col-6 {
+    width: 100%;
   }
 
   .projects p {
     font-size: 14px;
     margin: 0;
-    display: flex;
-    align-items: center;
+    padding: 0 10px;
   }
 
-  .projects .button {
-    padding: 5px 10px;
-    max-width: 100px;
-    margin: 0 auto;
-  }
-
-  #dictionary,
-  #travel,
-  #travel-p,
-  .mywork {
-    margin: 0 10px;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  .button-travel {
-    padding: 5px 10px;
-    max-width: 200px;
-    margin: 0 auto;
-    display: inline-block;
-    white-space: nowrap;
-  }
-
-  img[src="images/dictionaryapp3.png"],
-  img[src="images/cannonbeachsite.png"],
-  img[src="images/AIquoteapp1.png"],
-  img[src="images/clock1.png"],
-  img[src="images/weatherapp1.png"],
-  img[src="images/weatherapp2.png"] {
-    display: none;
+  .projects .button,
+  .projects .button-travel {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
   }
 }
 
@@ -319,17 +313,8 @@ footer {
   font-size: 35px;
 }
 
-.button-travel {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-  border-radius: 4px;
-  padding: 13px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
 #allaboutme {
   line-height: 2em;
 }
+
 
