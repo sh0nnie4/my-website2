@@ -164,18 +164,24 @@ small a:unvisited {
   }
 
   .projects .row {
-    flex-direction: column-reverse;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
   }
 
   .projects img {
     height: auto;
-    max-height: 200px;
+    max-height: none;
     width: 100%;
+    object-fit: cover;
+    flex: 1;
   }
 
   .projects p {
     font-size: 16px;
     margin: 0;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -205,18 +211,24 @@ small a:unvisited {
   }
 
   .projects .row {
-    flex-direction: column-reverse;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
   }
 
   .projects img {
     height: auto;
-    max-height: 150px;
+    max-height: none;
     width: 100%;
+    object-fit: cover;
+    flex: 1;
   }
 
   .projects p {
     font-size: 14px;
     margin: 0;
+    display: flex;
+    align-items: center;
   }
 
   .projects .button {
@@ -320,3 +332,4 @@ footer {
 #allaboutme {
   line-height: 2em;
 }
+
