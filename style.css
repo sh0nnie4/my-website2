@@ -343,6 +343,6 @@ footer {
 #allaboutme {
 line-height: 2em;
 }
-.github-link a:link, #contact a:visited { 
+.github-link a:link, a:visited { 
   color: var(--secondary-color);
 }
