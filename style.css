@@ -343,13 +343,7 @@ footer {
 #allaboutme {
 line-height: 2em;
 }
-#contact .github-link a:link {
-
-
-color: var(--secondary-color);
-
-}
-#contact .github-link a:visited {
-color: var(--secondary-color);
-
+#contact h2 a[href="https://github.com/sh0nnie4"]:link, 
+#contact h2 a[href="https://github.com/sh0nnie4"]:visited {
+  color: var(--secondary-color); 
 }
