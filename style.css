@@ -6,9 +6,8 @@
 
 body {
   margin: 60px auto;
-  max-width: 999px;
+  max-width: 100%;
   background-color: #8EC0E5;
- 
 }
 
 h1,
@@ -24,8 +23,6 @@ h1 {
   font-size: 70px;
   font-family: "Playfair Display", serif;
   font-weight: 600;
- 
-
 }
 
 h2 {
@@ -50,26 +47,23 @@ p {
   line-height: 1.5;
   text-align: center;
   font-family: "Lato", sans-serif;
-  
 }
+
 span {
   margin: 5px 15px;
 }
+
 a:link {
   text-decoration: none;
 }
-h2 a:visited {
-  color: #f5f2fe;
-}
-h2 a:unvisited {
-  color: #f5f2fe;
-}
-small a:visited {
-  color: #f5f2fe;
-}
+
+h2 a:visited,
+h2 a:unvisited,
+small a:visited,
 small a:unvisited {
-  color: #f5f2fe;
+  color: black;
 }
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -83,6 +77,7 @@ small a:unvisited {
   text-decoration: none;
   text-transform: capitalize;
 }
+
 .navbar a {
   font-family: "Lato", sans-serif;
 }
@@ -110,10 +105,13 @@ small a:unvisited {
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
+  flex-wrap: wrap;
 }
 
 .about-paragraphs p {
   margin: 10px;
+  flex: 1;
+  min-width: 200px;
 }
 
 .email-link {
@@ -128,11 +126,12 @@ small a:unvisited {
 .email-link:hover {
   text-decoration: underline;
 }
+
 .projects {
   margin: auto;
   background-image: url("images/bg4.png");
-background-size: cover;
-padding: 30px;
+  background-size: cover;
+  padding: 30px;
 }
 
 .projects .button {
@@ -143,105 +142,114 @@ padding: 30px;
   padding: 13px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  
-  
 }
-@media (max-width: 576px) {
-  .projects {
-    margin: auto;
-    width: 100%;
+
+@media (max-width: 768px) {
+  img[src="images/mypropic8.png"] {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 20px;
+    margin-bottom: 25px;
   }
+
   h1 {
     font-size: 40px;
-    
+    margin-bottom: 0;
   }
+
+  #allaboutme {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 10px;
+  }
+
+  .projects .row {
+    flex-direction: column-reverse;
+  }
+
+  .projects img {
+    height: auto;
+    max-height: 200px;
+    width: 100%;
+  }
+
+  .projects p {
+    font-size: 16px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+
   h2 {
     font-size: 30px;
-   
-  } 
+  }
+
   h3 {
     font-size: 20px;
   }
+
   p {
     font-size: 14px;
     text-align: center;
-    margin-left: -165px;
-    min-width: 300px;
+    margin: 0 10px;
   }
-  .projects .button {
-    padding: 5px auto;
-    max-width: 100px;
-    margin-left: -165px;
-  }
-  #dictionary {
-    margin-left: -165px;
-  }
-  #travel {
-    margin-right: -110px;
-  
-  }
-  #travel-p {
-    font-size: 14px;
-    text-align: center;
-  margin-left: 8px;
-    min-width: 300px;
-  }
-  .button-travel {
-    padding: 5px auto;
-    
-    max-width: 200px;
-    margin-left: 8px;
-    display: inline-block;
-    white-space: nowrap;
-  
-  }
-  .mywork {
-    font-size: 14px;
-    text-align: center;
-  margin-left: 4px;
-    
-  }
+
   #allaboutme {
     font-size: 14px;
     padding: 8px;
     margin: 0 10px;
   }
-  img[src="images/dictionaryapp3.png"] {
+
+  .projects .row {
+    flex-direction: column-reverse;
+  }
+
+  .projects img {
+    height: auto;
+    max-height: 150px;
+    width: 100%;
+  }
+
+  .projects p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .projects .button {
+    padding: 5px 10px;
+    max-width: 100px;
+    margin: 0 auto;
+  }
+
+  #dictionary,
+  #travel,
+  #travel-p,
+  .mywork {
+    margin: 0 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .button-travel {
+    padding: 5px 10px;
+    max-width: 200px;
+    margin: 0 auto;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  img[src="images/dictionaryapp3.png"],
+  img[src="images/cannonbeachsite.png"],
+  img[src="images/AIquoteapp1.png"],
+  img[src="images/clock1.png"],
+  img[src="images/weatherapp1.png"],
+  img[src="images/weatherapp2.png"] {
     display: none;
   }
-  img[src="images/cannonbeachsite.png"] {
-    display: none;
-  }
-    img[src="images/AIquoteapp1.png"] {
-      display: none;
-    }
-    img[src="images/clock1.png"] {
-      display: none;
-    }
-    img[src="images/weatherapp1.png"] {
-      display: none;
-    }
-    img[src="images/weatherapp2.png"] {
-      display: none;
-    }
-}
-@media (max-width: 768px) {
-  
-        img[src="images/mypropic8.png"] {
-max-width: 300px;
-max-height: 300px;
-padding: 20px;
-margin-bottom: 25px;
-        }
-        h1 {
-          font-size: 40px;
-          margin-bottom: 0;
-        }
-        #allaboutme {
-          font-size: 16px;
-          padding: 10px;
-          margin: 0 10px;
-        }
 }
 
 small {
@@ -257,18 +265,17 @@ footer {
   font-size: 40px;
   opacity: 0.7;
 }
+
 .pro-pic {
   display: flex;
   justify-content: center;
-  margin-top: -350px;
-  margin-bottom: 200px;
+  margin: -100px 0 200px 0;
   max-height: 510px;
 }
+
 .greeting {
   margin-top: -30px;
 }
-
-
 
 .container-1 {
   display: flex;
@@ -276,31 +283,30 @@ footer {
   align-items: center;
   margin: -60px 0 -70px 0;
   background-image: url("images/bg4.png");
-
 }
 
 .name {
   margin-top: -50px;
 }
+
 .featured {
   margin-bottom: 10px;
 }
+
 .welcome {
   line-height: 1.5em;
   background-color: rgba(128, 142, 145, 0.5);
-  border-radius: 4px 4px 4px;
+  border-radius: 4px;
   text-shadow: 2px 2px 4px black;
   padding: 15px;
 }
-#dictionary {
-  margin-top: -10px;
-  font-size: 35px;
-  
-}
+
+#dictionary,
 #travel {
   margin-top: -10px;
   font-size: 35px;
 }
+
 .button-travel {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -310,8 +316,7 @@ footer {
   text-decoration: none;
   text-transform: capitalize;
 }
+
 #allaboutme {
-
-line-height: 2em;
-
+  line-height: 2em;
 }
