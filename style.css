@@ -341,11 +341,8 @@ footer {
   text-transform: capitalize;
 }
 #allaboutme {
-
 line-height: 2em;
-
 }
-
-
-
-
+.github-link a:link, #contact a:visited { 
+  color: var(--secondary-color);
+}
