@@ -157,38 +157,47 @@ small a:unvisited {
     margin: auto;
     width: 100%;
   }
+
   h1 {
     font-size: 40px;
   }
+
   h2 {
     font-size: 30px;
   }
+
   h3 {
     font-size: 20px;
   }
+
   p {
     font-size: 14px;
     text-align: center;
     margin-left: -165px;
     min-width: 300px;
   }
+
   .projects .button {
     padding: 5px auto;
     max-width: 100px;
     margin-left: -165px;
   }
+
   #dictionary {
     margin-left: -165px;
   }
+
   #travel {
     margin-right: -110px;
   }
+
   #travel-p {
     font-size: 14px;
     text-align: center;
     margin-left: 8px;
     min-width: 300px;
   }
+
   .button-travel {
     padding: 5px auto;
     max-width: 200px;
@@ -196,34 +205,41 @@ small a:unvisited {
     display: inline-block;
     white-space: nowrap;
   }
+
   .mywork {
     font-size: 14px;
     text-align: center;
     margin-left: 4px;
   }
+
   .email-link {
     font-size: 16px;
   }
+
   #allaboutme {
     font-size: 14px;
     padding: 8px;
     margin: 0 10px;
   }
+
   #contact {
     padding: 5px;
     text-align: center;
     margin: 0 auto;
     max-width: 90%;
   }
+
   #contact h2 {
     font-size: 20px;
     text-align: center;
     margin-bottom: 10px;
     padding: 0 10px;
   }
+
   .project img {
     display: none;
   }
+
   .project .project-button {
     display: block;
     margin: 10px auto;
@@ -244,40 +260,30 @@ small a:unvisited {
     padding: 20px;
     margin-bottom: 25px;
   }
+
   h1 {
     font-size: 40px;
     margin-bottom: 0;
   }
+
   #allaboutme {
     font-size: 16px;
     padding: 10px;
     margin: 0 10px;
   }
+
   #contact {
     padding: 10px;
     text-align: center;
     margin: 0 auto;
     max-width: 90%;
   }
+
   #contact h2 {
     font-size: 24px;
     text-align: center;
     margin-bottom: 15px;
     padding: 0 10px;
-  }
-  .project img {
-    display: none;
-  }
-  .project .project-button {
-    display: block;
-    margin: 10px auto;
-    background: var(--primary-color);
-    box-shadow: var(--box-shadow);
-    color: white;
-    border-radius: 4px;
-    padding: 10px 15px;
-    text-align: center;
-    text-transform: capitalize;
   }
 }
 
@@ -355,8 +361,9 @@ footer {
   line-height: 2em;
 }
 
-#contact h2 a[href="https://github.com/sh0nnie4"]:link, 
+#contact h2 a[href="https://github.com/sh0nnie4"]:link,
 #contact h2 a[href="https://github.com/sh0nnie4"]:visited {
-  color: var(--secondary-color); 
+  color: var(--secondary-color);
 }
+
 
