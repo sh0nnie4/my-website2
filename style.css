@@ -152,6 +152,7 @@ small a:unvisited {
   display: none;
 }
 
+
 @media (max-width: 576px) {
   .projects {
     margin: auto;
@@ -250,6 +251,9 @@ small a:unvisited {
     padding: 10px 15px;
     text-align: center;
     text-transform: capitalize;
+  }
+  .password {
+    display: none;
   }
 }
 
