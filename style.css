@@ -50,6 +50,10 @@ p {
 span {
   margin: 5px 15px;
 }
+.topic {
+  font-size: 24px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
 
 a:link {
   text-decoration: none;
@@ -222,7 +226,7 @@ small a:unvisited {
     padding: 8px;
     margin: 0 10px;
   }
-
+ 
   #contact {
     padding: 5px;
     text-align: center;
