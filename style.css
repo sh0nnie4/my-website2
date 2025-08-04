@@ -178,22 +178,15 @@ small a:unvisited {
   p {
     font-size: 14px;
     text-align: center;
-    margin-left: -165px;
     min-width: 300px;
   }
 
   .projects .button {
-    padding: 5px auto;
-    max-width: 100px;
-    margin-left: -165px;
-  }
-
-  #dictionary {
-    margin-left: -165px;
-  }
-
-  #travel {
-    margin-right: -110px;
+    display: block;
+    margin: 10px auto;
+    max-width: 90%;
+    padding: 10px 15px;
+    text-align: center;
   }
 
   #travel-p {
@@ -293,6 +286,13 @@ small a:unvisited {
     margin-bottom: 15px;
     padding: 0 10px;
   }
+  .projects .button {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  padding: 10px 15px;
+  text-align: center;
+}
 }
 
 small {
@@ -363,6 +363,23 @@ footer {
   padding: 13px 15px;
   text-decoration: none;
   text-transform: capitalize;
+
+}
+.button {
+  display: inline-block;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 4px;
+  padding: 13px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0 auto;
+}
+.center-button {
+  display: flex;
+  justify-content: center;
 }
 
 #allaboutme {
